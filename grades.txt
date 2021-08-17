@@ -1,0 +1,35 @@
+  SubjectName | ECTS | Grade
+------------------------------
+
+linalgebra 6 5 
+diakrita 7 9
+eisagogi_tilepik 2 9
+takis 7 9
+pasxalis 6 6
+analysi 8 6
+pilotos 7 7
+xatzikoko 7 8
+fysiki 8 -
+anal2 8 5
+izampon 8 8
+pino 2 5
+pithanotites 6 7
+simata 6 -
+axlioptas 8 10
+diktya 6 8
+mathio 7 5
+vaseis 7 7
+aranal 6 -
+grafika 6 5
+delis 8 8.5
+parallila 6 -
+texniti 6 10
+ysbd 6 9
+machinepeos 6 -
+tsalga2 6 10
+rontopoutsa 6 -
+compilers 6 -
+syspro 8 10
+tedi 6 -
+tolidis1 2 9
+tolidis2 2 9 

@@ -2,7 +2,10 @@
 ECTS/Grade calculator for the best balkan university
 
 ## Installation
-`git clone https://github.com/iByteABit256/DI-Stats`
+```
+git clone https://github.com/iByteABit256/DI-Stats
+cd ./DI-Stats
+```
 
 ## Setup
 `chmod +x ./diStats.sh`

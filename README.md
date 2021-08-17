@@ -8,10 +8,14 @@ cd ./DI-Stats
 ```
 
 ## Setup
-`chmod +x ./diStats.sh`
+```
+chmod +x ./diStats.sh
+```
 
 ## Usage
-`./diStats [OPTIONS]`
+```
+./diStats [OPTIONS]
+```
 
 ## Description
 

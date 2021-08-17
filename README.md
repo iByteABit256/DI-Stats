@@ -15,7 +15,8 @@ ECTS/Grade calculator for the best balkan university
 Prints information about your subjects,
 your ECTS and your current average grade.
 
+`-c [newConfFile]` makes new configuration file
+
 `-p [yourFile]` uses your own file instead of `./grades.txt`
 
 `-e [ECTS minimum]` sets a different ECTS minimum required for finishing a university, instead of 240 which is the default
-

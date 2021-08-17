@@ -43,7 +43,7 @@ awk -v ECTS_NEEDED=$ectsNeeded '\
         printf "\n\nStatistics:\n"
         printf "-------------------------------------------------------\n"
         printf "%-15s\t%d (%d needed)\n", "ECTS:", ects, ECTS_NEEDED
-        printf "%-15s\t%2.2f / 10\n", "Score:", weighted/(ects+1)
+        printf "%-15s\t%2.2f / 10\n", "Score:", weighted/ects
     }
 ' $gradeFile
 

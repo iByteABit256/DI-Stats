@@ -2,17 +2,26 @@
 
 gradeFile="./grades.txt"
 ectsNeeded=240
+newConf=""
 
-while getopts ":f:e:" opt; do
+while getopts ":f:e:c:" opt; do
   case $opt in
     f) gradeFile="$OPTARG"
     ;;
     e) ectsNeeded="$OPTARG"
     ;;
+    c) newConf="$OPTARG"
+    ;;
     \?) echo "Invalid option -$OPTARG" >&2
     ;;
   esac
 done
+
+[[ $newConf != "" ]] && touch $newConf && echo "\
+  SubjectName | ECTS | Grade
+------------------------------
+
+" > $newConf && exit 0
 
 awk -v ECTS_NEEDED=$ectsNeeded '\
     BEGIN{
